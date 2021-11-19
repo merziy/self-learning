@@ -11,7 +11,7 @@ h1 {
 }
 
 p {
-    margin: 0em 5em;
+    margin: 0em 1em;
     padding-bottom: 1em;
 }
 
@@ -20,10 +20,10 @@ a:visited {
 }
 
 table,td {
-    margin: 0em 5em;
-
+    margin: auto;
     background-color:beige;
     border: 1px solid aquamarine;
+    
 }
 
 thead {
