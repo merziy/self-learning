@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The CSS Display property | A guide</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <header>
+        <h1>The CSS Property Display: A guide</h1>
+    </header>
+    <main>
+        <p>This property determines whether an element is treated as a block or
+            inline. This also impacts the layout its children are displayed as; some
+            examples are <span class="italicized">flow</span>, <span class="italicized">flex</span>,
+            and <span class="italicized">grid</span> layouts. Some potential values
+            are fully defined in their own specifications.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Possible values for Display:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>display: block;</td>
+                    <td>Displays an element as a block element (i.e., &lt;h3&gt;)</td>
+                </tr>
+                <tr>
+                    <td>display: inline;</td>
+                    <td>Displays an element as an inline element (i.e., &lt;div&gt;)</td>
+                </tr>
+                <tr>
+                    <td>display: flex;</td>
+                    <td>Displays elements as a two axis, one-dimensional layout model. See 
+                        <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">
+                        this guide</a> for more details.
+                    </td>
+                </tr>
+                <tr>
+                    <td>display: grid;</td>
+                    <td>Displays elements as a block-level grid container. See 
+                        <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">
+                        this guide</a> for more details.
+                    </td>
+                </tr>
+                <tr>
+                    <td>display: contents;</td>
+                    <td>Hides the containers, therefore making child elements children 
+                    of the element in the DOM that is one node above.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+  </body>
+</html>
