@@ -1,11 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Armata&family=Gentium+Book+Basic:ital@1&family=Saira:ital,wght@1,200&display=swap');
+
+#title {
+    text-align: center;
+}
+
+main {
+    max-width: 500px;  
+    margin: auto;
+}
 
 /* Colors */
+
+.colors {
+    display: flex;  
+    flex-direction: column;
+}
 
 .colors-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: 20px;
+    justify-content: space-around;
+
+    border: 3px solid lightblue;
+}
+
+#tan, #rose, #purple, #sky-blue, #mint-green {
+    padding: 20px 10px;
 }
 
 #tan {
@@ -26,4 +48,63 @@
 
 #mint-green {
     background-color: #B7FFB3;
+}
+
+/* Fonts */
+
+.fonts-container {
+    display: flex; 
+    padding: 10px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    border: 3px solid lightblue;
+}
+
+.armata {
+    font-family: 'Armata', sans-serif;
+}
+
+.gentium-book-basic {
+    font-family: 'Gentium Book Basic', serif;   
+}
+
+.saira {
+    font-family: 'Saira', sans-serif;
+}
+
+/* Text Styles */
+
+.text-styles-container {
+    border: 3px solid lightblue;
+}
+
+#text-styles-h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Armata', sans-serif;
+}
+
+#text-styles-h2 {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Armata', sans-serif;
+}
+
+#text-styles-h3 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Gentium Book Basic', sans-serif;
+}
+
+#text-styles-h4 {
+    font-weight: 450;
+    font-size: 14px;
+    font-family: 'Saira', sans-serif;
+}
+
+#text-styles-p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Saira', sans-serif;
 }
