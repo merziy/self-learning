@@ -1,0 +1,29 @@
+
+/* Colors */
+
+.colors-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 20px;
+}
+
+#tan {
+    background-color: #FBEFB7;
+}
+
+#rose {
+    background-color: #E3B4A6;
+}
+
+#purple {
+    background-color: #E6C3FA;
+}
+
+#sky-blue {
+    background-color: #A6CFE3;
+}
+
+#mint-green {
+    background-color: #B7FFB3;
+}
