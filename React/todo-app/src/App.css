@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+
+* {
+  font-family: 'Armata', sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 10px 30px;
+  margin: auto;
+  width: 50%;
+  background-color:lightgoldenrodyellow;
+  border: 3px solid aliceblue;
+  border-radius: 25%;
+  box-shadow: 10px 5px 5px burlywood;
+}
