@@ -19,6 +19,12 @@ body {
   gap: 2rem;
 }
 
+.book {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
 .book h1 {
   margin-top: 0.5rem;
 }
@@ -37,11 +43,5 @@ body {
   .booklist {
     grid-template-columns: repeat(3, 1fr);
     /* align-items: start; */
-  }
-
-  .book {
-    background: #fff;
-    border-radius: 1rem;
-    padding: 1rem 2rem;
   }
 }
