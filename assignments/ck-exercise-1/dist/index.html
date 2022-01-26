@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CK Exercise 1</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="root" ng-app="creditScore">
+  <main class="main main-grid">
+    <div ng-controller="myController" class="card">
+      <h3>Welcome back, Jacqueline!</h3>
+      <p>Your Credit Score</p>
+      <div class="outer">
+        <canvas id="chartJSContainer" width="600" height="400"></canvas>
+        <canvas id="secondContainer" width="600" height="400"></canvas>
+        <h3 class="score-info">735</h3>
+        <p class="score-info" id="scoreP">Good</p>
+      </div>
+      <p id="left">Credit Factors</p>
+      <div id="grid">
+        <div id="creditUtil" class="container">
+          <h4>{{creditNum}}</h4>
+          <p>Credit Card Utilization</p>
+        </div>
+        <div id="paymentHist" class="container">
+          <h4>{{payNum}}</h4>
+          <p>Payment History</p>
+        </div>
+        <div id="derogMarks" class="container">
+          <h4>{{deMarkNum}}</h4>
+          <p>Derogatory Marks</p>
+        </div>
+        <div id="ageCredit" class="container">
+          <h4>{{ageNum}}</h4>
+          <p>Age Of Credit History</p>
+        </div>
+        <div id="totalAcc" class="container">
+          <h4>{{accNum}}</h4>
+          <p>Total Accounts</p>
+        </div>
+        <div id="hardInq" class="container">
+          <h4>{{inqNum}}</h4>
+          <p>Hard Inquiries</p>
+        </div>
+      </div>
+    </div>
+    <section class="info">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Eo_circle_green_number-2.svg" height='150px' display="block" id="two" alt="Rule 2:">
+      <h2 id="infoH2">Insights</h2>
+      <p id="infoP">Learn what affects your credit scores and what you can do to improbe them.
+    </section>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.js"></script>
+
+<!--
+Instructions
+- Build UI as per http://tinyimg.io/i/haZ16Ur.png
+- Use Angular 9 or higher
+- Sample API is provided in JS part
+- Credit factors should show the color as per the API. 
+  For example: If total accounts > 8, Box should have   green highlight. Yellow for 8 <=3 and red for < 3
+- Bonus feature : When user click on anywhere,    randomize the results (score, credit factors etc) -->
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
