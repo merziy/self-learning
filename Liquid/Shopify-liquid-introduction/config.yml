@@ -1,0 +1,4 @@
+development:
+  password: ${test_DEV_PASSWD}
+  theme_id: ${test_DEV_THEMEID}
+  store: ${test_DEV_SHOP}

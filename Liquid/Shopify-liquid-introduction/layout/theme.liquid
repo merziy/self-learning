@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Joe Pichardo</title>
+
+    {{
+      content_for_header
+    }}
+  </head>
+  <body>
+    <h1>Shopify Liquid for Beginners</h1>
+
+    <p>Testing theme watch</p>
+
+    {% assign us_state = "New York" %} {% if us_state == 'New York' %}
+    <h2>I live in {{ us_state -}}</h2>
+    {% endif %}
+
+    {{ content_for_layout }}
+  </body>
+</html>
