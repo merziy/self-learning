@@ -2,4 +2,4 @@
 
 ## Description
 
-This is a repo for the majority of the code that I learned through different tutorials and random personal projects.
+This is where I store the majority of projects of code I write when I am learning new technologies or methodologies.
