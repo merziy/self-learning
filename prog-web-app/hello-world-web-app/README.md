@@ -1,6 +1,6 @@
 # Progressive Web Application
 
-This is the basic "Hello World!" code but with a Progressive Web Appliciation method behind its implementation. Progress Web Apps (hereafter "PWA's") use browser technologies to build an application that works offline, but feels native. The point behind this project is for me to gather a better understanding through an exercise.
+This is the basic "Hello World!" code but with a Progressive Web Application method behind its implementation. Progress Web Apps (hereafter "PWA's") use browser technologies to build an application that works offline, but feels native. The point behind this project is for me to gather a better understanding through an exercise.
 
 ## Technologies used
 
