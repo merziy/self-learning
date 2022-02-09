@@ -1,5 +1,5 @@
-# Coding-exercises
+# Exercise-projects
 
 ## Description
 
-This is where I store the majority of projects of code I write when I am learning new technologies or methodologies.
+This is my general repo where I store the majority code I write when I am learning new technologies, methodologies, or code that comes from entrance tests during coding interviews.
