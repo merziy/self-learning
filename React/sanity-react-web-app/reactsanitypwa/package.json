@@ -1,0 +1,35 @@
+{
+  "name": "reactsanitypwa",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A PWA is an app that is hosted on the web but has enhanced capabilities to make the application feel native on any device. For a general description of the requirements of a PWA, please see the [readme](https://github.com/merziy/Coding-exercises/tree/main/prog-web-app/hello-world-web-app) for my basic progressive web application project. The biggest reason a PWA architecture is useful is because it carries the ability to use a website offline",
+  "main": "package.json",
+  "author": "Alexander Mathis <alexzandermathis@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.27.0",
+    "@sanity/core": "^2.27.0",
+    "@sanity/default-layout": "^2.27.0",
+    "@sanity/default-login": "^2.27.0",
+    "@sanity/desk-tool": "^2.27.0",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.27.0",
+    "eslint": "^8.6.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/merziy/sanity-react-web-app.git"
+  }
+}
