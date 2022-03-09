@@ -1,0 +1,138 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text">
+      New Streaming Service Survey Form</h1>
+    <p id="description" class="text">
+      Thank you for using our service! Please help us improve our service by answering a few questions!</p>
+  </header>
+  <form id="survey-form">
+    <div class="survey-group">
+      <label id="name-label" for="name">Name</label>
+        <input 
+          type="text"
+          placeholder="Enter your name"     
+          name="name"
+          class="form-control"
+          id="name"
+          required
+        />
+    </div>
+    <div class="survey-group">
+      <label id="email-label" for="email">Email</label>
+        <input 
+          type="text"
+          placeholder="Enter your email"     
+          name="email"
+          class="form-control"
+          id="email"
+          required
+        />
+    </div>
+    <div class="survey-group">
+      <label id="number-label" for="number">Age (optional)</label>
+        <input 
+          type="text"
+          placeholder="Enter your age"     
+          name="name"
+          class="form-control"
+          id="number"
+          min="8"
+          max="100"
+        />
+    </div>
+    <div class="survey-group">
+      <p>What is the biggest reason for your unsubscribing?</p>
+      <select id="dropdown" name="unsub-reasons" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="expensive">Too expensive</option>
+        <option value="variety">Not enough variety of music</option>
+        <option value="competitor">Decided to go with a different streaming service</option>
+        <option value="budget">It is no longer in my budget</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="survey-group">
+      <p>Would you reccomend this service to a friend</p>
+      <label>
+        <input 
+          name="recommend"
+          value="Yes"
+          type="radio"
+          class="radio-input"
+          checked
+         />Yes</label>
+      <label>
+        <input 
+          name="recommend"
+          value="No"
+          type="radio"
+          class="radio-input"
+         />No</label>
+      <label>
+        <input 
+          name="recommend"
+          value="Unsure"
+          type="radio"
+          class="radio-input"
+         />Unsure</label>
+    </div>
+    <div class="survey-group">
+      <p>What would you like to see improved? (Check all that apply)<p>
+        <label>
+          <input
+            name="prefer"
+            value="range"
+            type="checkbox"   
+            class="input-checkbox"
+           />Better variety of music
+        </label>
+      <label>
+          <input
+            name="prefer"
+            value="economic-plans"
+            type="checkbox"   
+            class="input-checkbox"
+           />More economical plans
+        </label>
+      <label>
+          <input
+            name="prefer"
+            value="interface"
+            type="checkbox"   
+            class="input-checkbox"
+           />A better and more friendly interface
+        </label>
+      <label>
+          <input
+            name="prefer"
+            value="options"
+            type="checkbox"   
+            class="input-checkbox"
+           />More options for plans
+        </label>
+        <label>
+          <input
+            name="prefer"
+            value="personalized"
+            type="checkbox"   
+            class="input-checkbox"
+           />A more personalized experience
+      </label>
+    </div>
+    <div class="survey-group">
+      <p>Comments and suggestions:</p>
+      <textarea
+        id="comments"
+        class="text-area"
+        name="thoughts"
+        placeholder="Enter your comments and suggestions here..."    
+       ></textarea>   
+    </div>
+    <div class="survey-group">
+      <button type="submit"
+              id="submit"
+              class="submit-button"
+              >Submit</button>
+    </div>
+   </form>
+  <div>

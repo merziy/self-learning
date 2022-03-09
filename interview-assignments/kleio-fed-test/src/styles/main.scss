@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Universal Styling */
+
+
+$font-stack: 'Open Sans', sans-serif;
+$primary-color: #333;
+$secondary-color: #FFF;
+
+/* I am taking advantages of Variables and a few other features that
+SASS includes */
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    a {
+        color: $primary-color;
+        li {
+            cursor: pointer;
+        }
+    }
+    button {
+        background-color: $primary-color;
+        color: $secondary-color;
+        border-radius: 3px;
+        border: none;
+        text-align: center;
+        padding: 5px 20px;
+        font: 80% $font-stack;
+        cursor: pointer;
+    }
+}
+
+/* Navigation Bar Styling */
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 6em;
+    }
+    .menu {
+        display: inline-flex;
+        width: 60%;
+        align-content: center;
+        justify-content: space-evenly;
+        a {
+            text-decoration: none;
+            // This is to display the nav inline
+            li {
+                display: inline;
+                font-weight: bold;
+            }
+        }
+    }
+    button {
+        padding: 5px 30px;
+    }
+    border-bottom:1px solid rgb(109, 109, 109);
+    padding-bottom:10px;
+}
+
+/* Hero/Main Styling */
+body {
+    // To center the content as per the comp
+    padding: 0em 3em;
+}
+
+#hero {
+    display: flex;
+    padding: 5em 2em;
+    margin: auto;
+    #hero-left {
+        width: 40%;
+    }
+    // This is how I did some of the <hr>s
+    border-bottom:1px solid rgb(109, 109, 109);
+}
+
+/* Primary Benefit Styling */
+#primary-benefit {
+    display: flex;
+    padding: 3em 3em;
+    img {
+        width: 40%;
+    }
+    #primary-benefit-right {
+        padding: 0em 1em;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        img {
+            width: 25%;
+        }
+    }
+    margin-bottom: 1em;
+}
+
+/* Subscription Options Styling */
+#sub-options {
+    display: flex;
+    justify-content: space-evenly;
+    #basic {
+        text-align: center;
+        padding: 2em;
+        border: 4px solid lightgrey;
+        border-radius: 10px;
+        img {
+            margin-top: -5em;
+        }
+    }
+    #optimum {
+        text-align: center;
+        padding: 2em;
+        border: 4px solid lightgrey;
+        border-radius: 10px;
+        img {
+            margin-top: -5em;
+        }
+    }
+    #full {
+        text-align: center;
+        padding: 2em;
+        border: 4px solid lightgrey;
+        border-radius: 10px;
+        img {
+            margin-top: -5em;
+        }
+    }
+    .pricing {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3 {
+            font-size: 28px;
+        }
+        p {
+            margin-left: 5px;
+        }
+    }
+}
+/* Media Styling */
+
+// Responsive queues for mobile, tablets are fine
+
+@media only screen and (max-width: 450px) {
+    body {
+        padding: 0em 0em;
+    }
+    .nav-bar {
+        flex-wrap: wrap;
+        .menu {
+            padding: 0em 0em 0em 0em;
+            a {
+                padding: 5px;
+                li {
+                    font-size: 13px;
+                }
+            }
+        }
+        button {
+            padding: 4px 10px;
+        }
+    }
+    #hero {
+        padding: 2em 1em;
+    }
+    #primary-benefit {
+        padding: 1em 0em;
+        img {
+            width: 50%;
+        }
+    }
+    #sub-options {
+        // Changed flex rules to horizontal for mobile
+        flex-direction: column;
+        padding-top: 2em;
+        #optimum {
+            margin-top: 3em;
+        }
+        #full {
+            margin-top: 3em;
+        }
+    }
+}

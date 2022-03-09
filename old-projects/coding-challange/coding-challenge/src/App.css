@@ -1,0 +1,11 @@
+* {
+  background-color: black;
+}
+
+.main-container {
+  color: #FFF;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}

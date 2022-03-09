@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+* {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+    font-family: 'New Tegomin', serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.grid-container #statement {
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.grid-container #products {
+    grid-column: 2/2;
+    grid-row: 1;
+}
+
+.grid-container #staff {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.grid-container #contact {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.navbar {
+    text-align: center;
+}
+
+header {
+    background-image:url(../assets/images/park-bench.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+#products {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#products img {
+    width: auto;
+}
+
+.items {
+    height: 50px;
+    width: 50%;
+}

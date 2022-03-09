@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Product Slider</title>
+    <link rel="stylesheet" type='text/css' href="css/main.css">
+    <link rel="stylesheet" type='text/css' href="css/swiper.min.css">
+    
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+ </head>
+  <body>
+    <!-- Product Slider container -->
+	<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-slide="1">
+                <div class="slider-image">
+                    <a href="#"><img src="img/product-1.webp" alt="Product-1" class="src"></a>
+                    <h3>Product 1</h3>
+                    <p>Lorem Ipsume</p>
+                </div>
+            </div>
+            <div class="swiper-slide" data-slide="2">
+                <div class="slider-image">
+                    <a href="#"><img src="img/product-2.webp" alt="Product-2" class="src"></a>
+                    <h3>Product 2</h3>
+                    <p>Lorem Ipsume</p>
+                </div>
+            </div> 
+            <div class="swiper-slide" data-slide="3">
+                <div class="slider-image">
+                    <a href="#"><img src="img/product-3.webp" alt="Product-3" class="src"></a>
+                    <h3>Product 3</h3>
+                    <p>Lorem Ipsume</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+            <span class="swiper-pagination-bullet swiper-pagination-active"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev swiper-button-disabled"></div>
+    </div>
+  </body>
+</html>

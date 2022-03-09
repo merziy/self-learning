@@ -1,0 +1,58 @@
+.flag {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+header {
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+  place-items: center;
+  display: grid;
+}
+body {
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+  display: grid;
+  place-items: center;
+  line-height: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+#tribute-info {
+  background-color: #c5c9c5;
+  margin: 20px 400px 20px 400px;
+  padding: 20px 140px 20px 140px;
+}
+
+#title { 
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+h1 {
+  padding: 3rem 1rem 1rem 1rem;
+  line-height: 2rem;
+}
+
+#caption {
+  text-align: center;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+#tribute-link {
+  text-align: center;
+  background-color: #c5c9c5;
+  margin: -30px 400px 20px 400px;
+  padding: 20px 140px 20px 140px;
+}
+
+#main {
+  place-items: center;
+  text-align: center;
+  dsiplay: grid;
+}

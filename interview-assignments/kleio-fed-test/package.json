@@ -1,0 +1,32 @@
+{
+  "name": "f-e-d-boiler",
+  "version": "1.0.0",
+  "description": "Front End Test",
+  "scripts": {
+    "views": "cpx \"./src/views/*.html\" ./dist --verbose",
+    "watch-views": "npm run views -- --watch",
+    "scripts": "babel ./src/scripts/ --verbose --out-dir ./dist/js/ --source-maps --presets=@babel/preset-env",
+    "watch-scripts": "npm run scripts -- --watch",
+    "styles": "sass ./src/styles/main.scss ./dist/css/main.css -I ./src/styles/partials",
+    "watch-styles": "npm run styles -- --watch",
+    "watch": "concurrently \"npm:watch-*\"",
+    "serve": "browser-sync start --server ./dist --files \"./dist/**/*.*\" --no-notify",
+    "dev": "concurrently \"npm:watch-*\" \"npm:serve\"",
+    "start": "npm run dev",
+    "zip": "node docs/zip-src.js",
+    "build": "npm run views && npm run scripts && npm run styles && npm run zip"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "~7.12.17",
+    "@babel/core": "~7.12.0",
+    "@babel/preset-env": "~7.12.0",
+    "archiver": "~3.1.0",
+    "browser-sync": "~2.26.14",
+    "chalk": "~3.0.0",
+    "concurrently": "~5.1.0",
+    "cpx": "^1.5.0",
+    "minimist": ">=1.2.2",
+    "sass": "^1.26.3"
+  }
+}

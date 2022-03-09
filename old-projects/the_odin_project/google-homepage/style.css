@@ -1,0 +1,112 @@
+/*Styling for the entire page*/
+* { 
+    box-sizing: border-box;
+    margin: auto;
+}
+/*Styling for Search Bar*/
+.google_search {
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    position: center;
+    text-align: center;
+    white-space: normal;
+    word-wrap: break-word;
+}
+/*Styling for the Input*/
+form.google_search input {
+    padding: 10px;
+    display: flex;
+    width: 450px;
+    border: 1px solid grey;
+}
+/*Styling for the Submit buttons*/
+form.google_search button {
+    padding: 10px;
+    cursor: pointer;
+    margin: 20px;
+    height: 35px;
+    width: 120px;
+}
+/*Pushing the IMG/Search bar toward the center*/
+img {
+    margin-top: 11.5rem;
+    display: block;
+}
+/*Styling for Top Navigation Bar*/
+.topnav {
+    top: 1px;
+    position: absolute;
+    width: 100%;
+    height: 1rem;
+}
+.topnav a {
+    text-decoration: none;
+    padding: 15px;
+}
+.topnavleft {
+    text-align: center;
+    float: left;
+}
+.topnavright {
+    text-align: center;
+    float: right;
+}
+/*Styling for Bottom Navigation Bar*/
+.bottomnav {
+    position: absolute;
+    border: grey 1px solid;
+    bottom: 0px;
+    width: 100%;
+    min-width: 100%;
+    height: 3rem;
+    background: lightgrey;
+    
+}
+.bottomnav a {
+    margin-top: -5px;
+    text-decoration: none;
+    padding: 20px;
+}
+.bottomnavleft {
+    text-align: center;
+    float: left;
+}
+.bottomnavright {
+    text-align: center;
+    float: right;
+}
+/*Applied Accessibility, making Footer absolute*/
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 2rem;
+}
+
+/*Mobile*/
+
+
+@media (max-width: 600px) {
+    img {
+        margin-top: 5rem;
+    }
+    form.google_search input {
+        padding: 5px;
+        margin-top: -25px;
+    }
+    form.google_search button {
+        margin-top: 20px;
+        height: 40px;
+        padding: 10px;  
+
+    }
+}
+
+@media (max-width: 800px) {
+    img {
+        margin-top: 4rem;
+    }
+}

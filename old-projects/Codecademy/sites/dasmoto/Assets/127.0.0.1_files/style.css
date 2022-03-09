@@ -1,0 +1,27 @@
+* {
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    font-weight: bold;
+    color: khaki;
+    background-image: url(/Assets/pattern.webp);
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.brush-section {
+    background-color: mediumspringgreen;
+} 

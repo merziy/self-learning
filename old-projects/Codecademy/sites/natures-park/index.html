@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Nature's Park</title>
+</head>
+<body class="body">
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#statement">Our Statement</a>
+        <a href="#products">Products</a>
+        <a href="#staff">Staff</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <header>
+    <h1 id="title">Nature's Park</h1>
+    </header>
+    <main class="grid-container">
+        <article id="statement">
+            <h2>Our Statement</h2>
+            <p>We provide natural solutions for your furnishing needs. Hand crafted in Montana, we create a variety of furniture with care.</p>
+        </article>
+        <article id="products">
+            <div class="items">
+                <img src="assets/images/pauli-wood-bench.webp">
+                <p>Hand-crafted wooden bench: $265+</p>
+            </div>
+            <div class="items">
+                <img src="assets/images/mayachair.jpg">
+                <p>Maya-style Outdoor Chair: $350+</p>
+            </div>
+            <div class="items">
+                <img src="assets/images/rustic-table.png">
+                <p>Antique-style Rustic Table: $400+</p>
+            </div>
+            <div class="items">
+                <img src="assets/images/spoons.jpg">
+                <p>Wooden Cutlery (sets starting at $65+)</p>
+            </div>
+        </article>
+        <article id="staff">
+            <h3>Our Staff</h3>
+            <p>We are a family owned and operated location, all gifted crafters in our own rights.</p>
+        </article>
+        <article id="contact">
+            <form action="mailto:xyz@domain.com" 
+            id="form"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm">
+                Name:
+                <input type="text" size="20" name="contact-name" required>
+                Email:
+                <input type="email" name="contact-email" required>
+                Message:
+                <textarea name="contact-message" rows="6" cols="20" required></textarea>
+                <button type="submit" value="Submit">Submit</button>    
+            </form>
+        </article>
+    </main>
+    <footer id="footer">
+        <p>Nature's Park</p>
+        <p>Copyright 2021</p>
+    </footer>
+</body>
+</html>
