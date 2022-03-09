@@ -6,4 +6,4 @@ This is my general repo where I store the majority code I write when I am learni
 
 ## Contents
 
-Programming languages include HTML, CSS, JavaSript, TypeScript, PHP, C, Kotlin, really a littke bit of everything. Includes JS frameworks and libraries such as React, Vue, Angular, ChartJS, jQuery, and more. I experiment with RESTful API's, the backend, servers, PWA's, unix, etc.
+Programming languages include HTML, CSS, JavaSript, TypeScript, PHP, C, Kotlin, really a littke bit of everything. Includes JS frameworks and libraries such as React, Vue, Angular, ChartJS, jQuery, and more. I experiment with RESTful API's, the backend, servers, PWA's, scripting, etc.
