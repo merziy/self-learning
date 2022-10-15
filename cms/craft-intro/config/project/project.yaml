@@ -1,0 +1,64 @@
+dateModified: 1661281032
+email:
+  fromEmail: inspirehdd@gmail.com
+  fromName: 'https://tutorial.ddev.site'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  blog:
+    hasUrls: true
+    name: Blog
+    settings:
+      path: '@webroot/templates/blog'
+    type: craft\fs\Local
+    url: '@web/blog'
+  general:
+    hasUrls: true
+    name: General
+    settings:
+      path: '@web/blog/general'
+    type: craft\fs\Local
+    url: '@web/assets/general'
+meta:
+  __names__:
+    0a9ff134-2597-4b4f-855a-f02525d7fbd7: General # General
+    0a99b5e5-bd19-48c8-be97-26d320772537: About # About
+    5fe740bf-73ee-4a1c-bc13-8e1c3f73d16b: ' Post Content' #  Post Content
+    7a06dcd2-af9e-45e3-a113-947ed7390923: Common # Common
+    9bbab8b0-17b4-4f60-aa82-c2f638e67815: 'Post Categories' # Post Categories
+    9bd4aad7-444d-4486-bbb0-28308d777020: 'Singles Fields' # Singles Fields
+    9e4581f3-0a1a-4723-9972-7e71564741c4: 'Blog Categories' # Blog Categories
+    9eca9511-a0a8-4e3e-86e7-121feb7f79de: 'About Image' # About Image
+    9f1338f6-0bfd-406c-a35f-1b29486e8617: Blog # Blog
+    30b3e961-c47d-472b-b2e9-600034c47af2: Blog # Blog
+    88b9be86-f411-46ac-b3cc-bc8f0acc3e8b: Summary # Summary
+    99e65d72-a8e1-401b-9597-c76ac40d8ee0: 'Blog Post Fields' # Blog Post Fields
+    137fa97e-f7d6-4def-80ce-fe01574966d5: Text # Text
+    325f3179-e676-4d86-a9ea-ea470845dde3: Image # Image
+    354c7e28-e4ef-4e39-b7f8-2e6364fb677d: 'Feature Image' # Feature Image
+    540ea965-fbf1-4056-ab4b-bc0901cc5f99: 'Site Description' # Site Description
+    836a279c-893f-480b-86ea-e4490791e481: 'https://tutorial.ddev.site' # https://tutorial.ddev.site
+    998cd880-cad0-45f2-bb0d-9c887f31ee8d: Image # Image
+    3131252d-4e85-4756-ae37-a4cbe48510af: 'http://tutorial.ddev.site' # http://tutorial.ddev.site
+    57861335-5be1-47d3-9b9a-485a25faa92f: About # About
+    aa570aca-466b-4c78-b5d9-9e51c4e6fac7: 'Global Fields' # Global Fields
+    d46ba22e-3d7c-45d1-a528-f3aab43aafa6: 'Site Information' # Site Information
+    dd04630d-d79e-4415-b5f7-798d09900838: Blog # Blog
+    f23a2d66-3f8a-4ec4-9755-ce484c0b2603: Text # Text
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'https://tutorial.ddev.site'
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: America/New_York
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

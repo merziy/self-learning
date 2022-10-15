@@ -1,0 +1,46 @@
+defaultPlacement: end
+fieldLayouts:
+  cf5efbe7-4278-443d-998e-4a458c7393a9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: f973374f-7810-4bf5-b94f-ffdd5ebf00c7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f4787e59-79ed-4ef0-8839-88fd5fa58363
+        userCondition: null
+handle: blogCategories
+name: 'Blog Categories'
+siteSettings:
+  3131252d-4e85-4756-ae37-a4cbe48510af: # http://tutorial.ddev.site
+    hasUrls: true
+    template: blog/_category
+    uriFormat: 'blog-categories/{slug}'
+structure:
+  maxLevels: 1
+  uid: ab10bc5a-12bb-4d80-bb9d-48c2cb954ccc

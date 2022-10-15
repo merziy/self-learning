@@ -1,0 +1,67 @@
+fieldLayouts:
+  be1f116f-b1d7-47b1-ba6f-83d3434ddc36:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4ef7e531-774e-47ea-8240-b53f5125bd77
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9eca9511-a0a8-4e3e-86e7-121feb7f79de # About Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f3ba2b68-d9f7-4b4f-9a69-6936a894f170
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5fe740bf-73ee-4a1c-bc13-8e1c3f73d16b #  Post Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d048592c-7d95-4e30-83fe-ac0c7923717e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5f83bb28-5096-429e-9f1e-570b5eb917f3
+        userCondition: null
+handle: about
+hasTitleField: false
+name: About
+section: 57861335-5be1-47d3-9b9a-485a25faa92f # About
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
