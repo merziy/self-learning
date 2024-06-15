@@ -4,12 +4,12 @@ bot_data = {
   :presubs => [
     ["dont", "don't"],
     ["youre", "you're"],
-    ['love', 'like'],
-    ['apologize', 'are sorry'],
-    ['dislike', 'hate'],
-    ['despise', 'hate'],
-    ['yeah', 'yes'],
-    ['mom', 'family'],
+    ["love", "like"],
+    ["apologize", "are sorry"],
+    ["dislike", "hate"],
+    ["despise", "hate"],
+    ["yeah", "yes"],
+    ["mom", "family"],
   ],
 
   :responses => {
@@ -29,69 +29,69 @@ bot_data = {
       "Good bye!",
       "Au revoir!",
     ],
-    'hello' => [
+    "hello" => [
       "How's it going?",
       "How do you do?",
       "Enough of the pleasantries!"
     ],
-    'sorry' => [
-      'There is no need to apologize.'
+    "sorry" => [
+      "There is no need to apologize."
     ],
-    'different' => [
-      'How is it different?',
-      'What changed?'
+    "different" => [
+      "How is it different?",
+      "What changed?"
     ],
-    'everyone' => [
-      'You thunk everyone *?'
+    "everyone *" => [
+      "You think everyone *?"
     ],
-    'do not know' => [
-      'Are you always so indecisive?'
+    "do not know" => [
+      "Are you always so indecisive?"
     ],
-    'yes' => [
-      'At least you are positive about something!',
-      'Great.'
+    "yes" => [
+      "At least you are positive about something!",
+      "Great."
     ],
-    'family' => [
-      'Tell me about your family',
+    "family" => [
+      "Tell me about your family",
     ],
-    'you are *' => [
-      'What makes you think I am *?',
-      'Are you so sure I am *?'
+    "you are *" => [
+      "What makes you think I am *?",
+      "Are you so sure I am *?"
     ],
-    'i am *' => [
-      'Is it normal for you to be *?',
-      'Do you like being ?',
+    "i am *" => [
+      "Is it normal for you to be *?",
+      "Do you like being *?",
     ],
-    'i do not' => [
+    "i do not *" => [
       "Why don't you *?"
     ],
-    'what' => [
-      'Why do you ask?',
-      'Why?',
+    "what" => [
+      "Why do you ask?",
+      "Why?",
       "I don't know. Do you?"
     ],
-    'no' => [
-      'Really?',
-      'Fair enough.'
+    "no" => [
+      "Really?",
+      "Fair enough."
     ],
-    'why does *' => [
+    "why does *" => [
       "I don't know why *",
       "Do you already know the answer?"
     ],
-    'why can\'t i *' => [
-      "Do you wan't to *?"
+    "why can't i *" => [
+      "Do you want to *?"
     ],
-    'why can\'t you *' => [
+    "why can't you *" => [
       "Do you want me to *?"
     ],
-    'hates *' => [
+    "hates *" => [
       "Why do you think they hate *?"
     ],
-    'hate *' => [
+    "hate *" => [
       "Why don't you like *?",
       "Why the dislike of *?",
     ],
-    'i like *' => [
+    "i like *" => [
       "Why do you like *?",
       "Wow! I like * too!",
     ],
@@ -100,4 +100,4 @@ bot_data = {
 
 # puts bot_data.to_yaml
 
-File.open(ARGV.first || 'bot_data.yml', 'w') { |file| file.write(bot_data.to_yaml) }
+File.open(ARGV.first || "bot_data.yml", "w") { |file| file.write(bot_data.to_yaml) }

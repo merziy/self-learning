@@ -8,7 +8,7 @@ class Bot
   def initialize(options)
     @name = options[:name] || "Unnamed Bot"
     begin
-      @data = YAML.load_file(options[:data_file])
+      @data = YAML.load(File.open(options[:data_file]).read)
     rescue
       raise "Can't load bot data"
     end
@@ -38,7 +38,7 @@ class Bot
 
 
   def preprocess(input)
-    peform_substitutions input
+    peform_substitutions(input)
   end
 
   def peform_substitutions(input)
