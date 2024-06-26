@@ -1,0 +1,25 @@
+# config/database.yml
+
+default: &default
+  adapter: mysql2
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+  host: localhost
+
+development:
+  <<: *default
+  database: mydiary
+  username: mydiary
+  password: mypassword
+
+test:
+  <<: *default
+  database: mydiary_test
+  username: mydiary
+  password: mypassword
+
+production:
+  <<: *default
+  database: mydiary_production
+  username: mydiary
+  password: <%= ENV['MYDIARY_PRODUCTION_DATABASE_PASSWORD'] %>
